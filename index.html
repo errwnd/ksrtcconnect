@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>KeralaRTC Connect</title>
+        <meta
+            name="description"
+            content="Find contact numbers for KSRTC bus stations across Kerala"
+        />
+
+        <!-- HTMX -->
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
+        <!-- Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <h1 class="title">KeralaRTC Bus Depot Contact Info</h1>
+                <!-- Search -->
+                <div class="search-box">
+                    <input
+                        type="text"
+                        id="search"
+                        placeholder="Search district or station..."
+                        autocomplete="off"
+                    />
+                </div>
+            </header>
+
+            <!-- Districts List -->
+            <main id="districts">
+                <div class="loading">Loading...</div>
+            </main>
+
+            <!-- No Results -->
+            <div id="no-results" class="no-results hidden">
+                <p>No results found</p>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>Data is collected from public domains</p>
+            </footer>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>

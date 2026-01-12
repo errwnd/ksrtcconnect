@@ -1,0 +1,249 @@
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+    color: #fff;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+/* Search */
+.search-box {
+    margin-top: 1.5rem;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.search-box input:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+
+/* Districts */
+#districts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 3rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* District Card */
+.district {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.district-header {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+}
+
+.district-header:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.district-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.district-name-ml {
+    font-size: 0.75rem;
+    color: #e74c3c;
+    font-weight: 500;
+}
+
+.district-name-en {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.district-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.unit-count {
+    font-size: 0.625rem;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.chevron {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.4);
+    transition: transform 0.2s;
+}
+
+.district-header[aria-expanded="true"] .chevron {
+    transform: rotate(180deg);
+}
+
+/* Stations */
+.stations {
+    display: none;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.stations.open {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    animation: fadeIn 0.2s ease;
+}
+
+@media (min-width: 600px) {
+    .stations.open {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Station Card */
+.station {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.station:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.station-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+.station-name-ml {
+    font-size: 0.625rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.station-name-en {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.call-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgba(231, 76, 60, 0.15);
+    color: #e74c3c;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: all 0.2s;
+}
+
+.call-btn:hover {
+    background: #e74c3c;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.3);
+}

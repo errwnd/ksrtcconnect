@@ -1,0 +1,213 @@
+{
+  "organization": "KSRTC",
+  "districts": [
+    {
+      "district_ml": "തിരുവനന്തപുരം",
+      "district_en": "Thiruvananthapuram",
+      "stations": [
+        { "name_ml": "തിരുവനന്തപുരം സെൻട്രൽ", "name_en": "Thiruvananthapuram Central", "phone": "9188933716" },
+        { "name_ml": "തിരുവനന്തപുരം സെൻട്രൽ (നാഗർകോവിൽ സെക്ടർ)", "name_en": "Thiruvananthapuram Central (Nagercoil Sector)", "phone": "9188933717" },
+        { "name_ml": "തിരുവനന്തപുരം സിറ്റി സൗത്ത്", "name_en": "Thiruvananthapuram City South", "phone": "9188933718" },
+        { "name_ml": " തിരുവനന്തപുരം സിറ്റി നോർത്ത്", "name_en": "Thiruvananthapuram City North", "phone": "9188933719" },
+        { "name_ml": "നെടുമങ്ങാട്", "name_en": "Nedumangad", "phone": "9188933702" },
+        { "name_ml": "പേരൂർക്കട", "name_en": "Peroorkada", "phone": "9188933715" },
+        { "name_ml": "വിതുര", "name_en": "Vithura", "phone": "9188933724" },
+        { "name_ml": "പാലോട്", "name_en": "Palode", "phone": "9188933709" },
+        { "name_ml": "ആര്യനാട്", "name_en": "Aryanad", "phone": "9188933700" },
+        { "name_ml": "വെള്ളനാട്", "name_en": "Vellanad", "phone": "9188933720" },
+        { "name_ml": "ആറ്റിങ്ങൽ", "name_en": "Attingal", "phone": "9188933701" },
+        { "name_ml": "കിളിമാനൂർ", "name_en": "Kilimanoor", "phone": "9188933706" },
+        { "name_ml": "നെയ്യാറ്റിൻകര", "name_en": "Neyyattinkara", "phone": "9188933708" },
+        { "name_ml": "വിഴിഞ്ഞം", "name_en": "Vizhinjam", "phone": "9188933725" },
+        { "name_ml": "വെഞ്ഞാറമൂട്", "name_en": "Vengaramoodu", "phone": "9188933726" },
+        { "name_ml": "കാട്ടാക്കട", "name_en": "Kattakada", "phone": "9188933705" },
+        { "name_ml": "വെള്ളറട", "name_en": "Vellarada", "phone": "9188933721" },
+        { "name_ml": "പാപ്പനംകോട്", "name_en": "Pappanamcode", "phone": "9188933710" },
+        { "name_ml": "കണിയാപുരം", "name_en": "Kaniyapuram", "phone": "9188933703" },
+        { "name_ml": "പൂവാർ", "name_en": "Poovar", "phone": "9188933711" },
+        { "name_ml": "പാറശ്ശാല", "name_en": "Parassala", "phone": "9188933712" },
+        { "name_ml": "കളിയിക്കാവിള", "name_en": "Kaliyikkavila", "phone": "9188933713" },
+        { "name_ml": "വികാസ് ഭവൻ", "name_en": "Vikas Bhavan", "phone": "9188933722" },
+        { "name_ml": "പോത്തൻകോട്", "name_en": "Pothencode", "phone": "9188933704" },
+        { "name_ml": "മെഡിക്കൽ കോളേജ്", "name_en": "Medical College", "phone": "9188933723" },
+        { "name_ml": "കല്ലറ", "name_en": "Kallara", "phone": "9188933707" }
+      ]
+    },
+    {
+      "district_ml": "കൊല്ലം",
+      "district_en": "Kollam",
+      "stations": [
+        { "name_ml": "കൊല്ലം", "name_en": "Kollam", "phone": "9188933739" },
+        { "name_ml": "കൊട്ടാരക്കര", "name_en": "Kottarakkara", "phone": "9188933732" },
+        { "name_ml": "കരുനാഗപ്പള്ളി", "name_en": "Karunagappally", "phone": "9188933736" },
+        { "name_ml": "പുനലൂർ", "name_en": "Punalur", "phone": "9188933730" },
+        { "name_ml": "പത്തനാപുരം", "name_en": "Pathanapuram", "phone": "9188933735" },
+        { "name_ml": "ആര്യങ്കാവ്", "name_en": "Aryankavu", "phone": "919188933727" },
+        { "name_ml": "കുളത്തൂപ്പുഴ", "name_en": "Kulathupuzha", "phone": "9188933734" },
+        { "name_ml": "ചടയമംഗലം", "name_en": "Chadayamangalam", "phone": "9188933728" },
+        { "name_ml": "ചാത്തന്നൂർ", "name_en": "Chathannoor", "phone": "9188933729" },
+        { "name_ml": "ഓച്ചിറ", "name_en": "Oachira", "phone": "9188933755" }
+      ]
+    },
+	{
+    "district_ml": "പത്തനംതിട്ട",
+    "district_en": "Pathanamthitta",
+    "stations": [
+      { "name_ml": "പത്തനംതിട്ട", "name_en": "Pathanamthitta", "phone": "9188933744" },
+      { "name_ml": "അടൂർ", "name_en": "Adoor", "phone": "9188933740" },
+      { "name_ml": "പന്തളം", "name_en": "Pandalam", "phone": "9188933743" },
+      { "name_ml": "തിരുവല്ല", "name_en": "Thiruvalla", "phone": "9188933746" },
+      { "name_ml": "റാന്നി", "name_en": "Ranni", "phone": "9188933745" },
+      { "name_ml": "കോന്നി", "name_en": "Konni", "phone": "9188933741" },
+      { "name_ml": "പമ്പ", "name_en": "Pamba", "phone": "9446592990" },
+      { "name_ml": "മല്ലപ്പള്ളി", "name_en": "Mallappally", "phone": "9188933742" }
+    ]
+  },
+  {
+    "district_ml": "ആലപ്പുഴ",
+    "district_en": "Alappuzha",
+    "stations": [
+      { "name_ml": "ആലപ്പുഴ", "name_en": "Alappuzha", "phone": "9188933748" },
+      { "name_ml": "കായംകുളം", "name_en": "Kayamkulam", "phone": "9188933754" },
+      { "name_ml": "ഹരിപ്പാട്", "name_en": "Haripad", "phone": "9188933753" },
+      { "name_ml": "മാവേലിക്കര", "name_en": "Mavelikkara", "phone": "9188933756" },
+      { "name_ml": "ചേർത്തല", "name_en": "Cherthala", "phone": "9188933751" },
+      { "name_ml": "ചെങ്ങന്നൂർ", "name_en": "Chengannur", "phone": "9188933750" },
+      { "name_ml": "എടത്വാ", "name_en": "Edathua", "phone": "9188933752" }
+    ]
+  },
+  {
+    "district_ml": "കോട്ടയം",
+    "district_en": "Kottayam",
+    "stations": [
+      { "name_ml": "കോട്ടയം", "name_en": "Kottayam", "phone": "9188933760" },
+      { "name_ml": "ചങ്ങനാശ്ശേരി", "name_en": "Changanassery", "phone": "9188933757" },
+      { "name_ml": "പാലാ", "name_en": "Pala", "phone": "9188933762" },
+      { "name_ml": "വൈക്കം", "name_en": "Vaikom", "phone": "9188933765" },
+      { "name_ml": "ഈരാറ്റുപേട്ട", "name_en": "Erattupetta", "phone": "9188933758" },
+      { "name_ml": "പൊൻകുന്നം", "name_en": "Ponkunnam", "phone": "9188933763" },
+      { "name_ml": "എരുമേലി", "name_en": "Erumely", "phone": "9188933759" },
+      { "name_ml": "ഏറ്റുമാനൂർ", "name_en": "Ettumanoor", "phone": "9188933761" },
+      { "name_ml": "മുണ്ടക്കയം", "name_en": "Mundakayam", "phone": "9188933764" }
+    ]
+  },{
+    "district_ml": "ഇടുക്കി",
+    "district_en": "Idukki",
+    "stations": [
+      { "name_ml": "മൂന്നാർ", "name_en": "Munnar", "phone": "9188933771" },
+      { "name_ml": "കുമളി", "name_en": "Kumily", "phone": "9188933768" },
+      { "name_ml": "കുമളി ടൌൺ", "name_en": "Kumily Town", "phone": "9188933769" },
+      { "name_ml": "തൊടുപുഴ", "name_en": "Thodupuzha", "phone": "9188933775" },
+      { "name_ml": "മൂലമറ്റം", "name_en": "Moolamattom", "phone": "9188933770" },
+      { "name_ml": "കട്ടപ്പന (വെള്ളയാംകുടി)", "name_en": "Kattappana (Vellayamkudi)", "phone": "9188933766" },
+      { "name_ml": "കട്ടപ്പന മുനിസിപ്പൽ സ്റ്റാൻഡ്", "name_en": "Kattappana Municipal Stand", "phone": "9188933767" },
+      { "name_ml": "നെടുങ്കണ്ടം", "name_en": "Nedumkandam", "phone": "9188933774" },
+      { "name_ml": "അടിമാലി", "name_en": "Adimali", "phone": "9188933772" }
+    ]
+  },
+  {
+    "district_ml": "എറണാകുളം",
+    "district_en": "Ernakulam",
+    "stations": [
+      { "name_ml": "എറണാകുളം", "name_en": "Ernakulam", "phone": "9188933779" },
+      { "name_ml": "എറണാകുളം ജെട്ടി", "name_en": "Ernakulam Jetty", "phone": "9188933780" },
+      { "name_ml": "വൈറ്റില ഹബ്ബ്", "name_en": "Vyttila Hub", "phone": "9188933781" },
+      { "name_ml": "പിറവം", "name_en": "Piravom", "phone": "9188933790" },
+      { "name_ml": "അങ്കമാലി", "name_en": "Angamaly", "phone": "9188933778" },
+      { "name_ml": "കോതമംഗലം", "name_en": "Kothamangalam", "phone": "9188933783" },
+      { "name_ml": "കോതമംഗലം മുനിസിപ്പൽ സ്റ്റാൻഡ്", "name_en": "Kothamangalam Municipal Stand", "phone": "9188933784" },
+      { "name_ml": "ആലുവ", "name_en": "Aluva", "phone": "9188933776" },
+      { "name_ml": "മൂവാറ്റുപുഴ", "name_en": "Muvattupuzha", "phone": "9188933785" },
+      { "name_ml": "നോർത്ത് പറവൂർ", "name_en": "North Paravur", "phone": "9188933787" },
+      { "name_ml": "പെരുമ്പാവൂർ", "name_en": "Perumbavoor", "phone": "9188933788" },
+      { "name_ml": "കൂത്താട്ടുകുളം", "name_en": "Koothattukulam", "phone": "9188933782" }
+    ]
+  },
+  {
+    "district_ml": "തൃശ്ശൂർ",
+    "district_en": "Thrissur",
+    "stations": [
+      { "name_ml": "തൃശ്ശൂർ", "name_en": "Thrissur", "phone": "9188933797" },
+      { "name_ml": "ചാലക്കുടി", "name_en": "Chalakudy", "phone": "9188933791" },
+      { "name_ml": "ഗുരുവായൂർ", "name_en": "Guruvayur", "phone": "9188933792" },
+      { "name_ml": "പുതുക്കാട്", "name_en": "Puthukkad", "phone": "9188933796" },
+      { "name_ml": "ഇരിങ്ങാലക്കുട", "name_en": "Irinjalakuda", "phone": "9188933793" },
+      { "name_ml": "കൊടുങ്ങല്ലൂർ", "name_en": "Kodungallur", "phone": "9188933794" },
+      { "name_ml": "മാള", "name_en": "Mala", "phone": "9188933795" }
+    ]
+  },
+  
+  {
+    "district_ml": "പാലക്കാട്",
+    "district_en": "Palakkad",
+    "stations": [
+      { "name_ml": "പാലക്കാട്", "name_en": "Palakkad", "phone": "9188933800" },
+      { "name_ml": "മണ്ണാർക്കാട്", "name_en": "Mannarkkad", "phone": "9188933799" },
+      { "name_ml": "വടക്കഞ്ചേരി", "name_en": "Vadakkenchery", "phone": "9188933802" },
+      { "name_ml": "ചിറ്റൂർ", "name_en": "Chittur", "phone": "9188933798" }
+    ]
+  },
+  {
+    "district_ml": "മലപ്പുറം",
+    "district_en": "Malappuram",
+    "stations": [
+      { "name_ml": "മലപ്പുറം", "name_en": "Malappuram", "phone": "9188933803" },
+      { "name_ml": "പൊന്നാനി", "name_en": "Ponnani", "phone": "9188933807" },
+      { "name_ml": "തിരൂർ", "name_en": "Tirur", "phone": "9188933808" },
+      { "name_ml": "നിലമ്പൂർ", "name_en": "Nilambur", "phone": "9188933805" },
+      { "name_ml": "പെരിന്തൽമണ്ണ", "name_en": "Perinthalmanna", "phone": "9188933806" }
+    ]
+  },
+  {
+    "district_ml": "കോഴിക്കോട്",
+    "district_en": "Kozhikode",
+    "stations": [
+      { "name_ml": "കോഴിക്കോട്", "name_en": "Kozhikode", "phone": "9188933809" },
+      { "name_ml": "വടകര", "name_en": "Vadakara", "phone": "9188933814" },
+      { "name_ml": "തിരുവമ്പാടി", "name_en": "Thiruvambady", "phone": "9188933812" },
+      { "name_ml": "തൊട്ടിൽപ്പാലം", "name_en": "Thottilpalam", "phone": "9188933813" },
+      { "name_ml": "താമരശ്ശേരി", "name_en": "Thamarassery", "phone": "9188933811" }
+    ]
+  },
+  {
+    "district_ml": "വയനാട്",
+    "district_en": "Wayanad",
+    "stations": [
+      { "name_ml": "സുൽത്താൻബത്തേരി", "name_en": "Sulthan Bathery", "phone": "9188933819" },
+      { "name_ml": "കൽപ്പറ്റ", "name_en": "Kalpetta", "phone": "9188933816" },
+      { "name_ml": "കൽപ്പറ്റ മുനിസിപ്പൽ സ്റ്റാൻഡ്", "name_en": "Kalpetta Municipal Stand", "phone": "9188933817" },
+      { "name_ml": "മാനന്തവാടി", "name_en": "Mananthavady", "phone": "9188933818" }
+    ]
+  },
+  {
+    "district_ml": "കണ്ണൂർ",
+    "district_en": "Kannur",
+    "stations": [
+      { "name_ml": "കണ്ണൂർ", "name_en": "Kannur", "phone": "9188933822" },
+      { "name_ml": "തലശ്ശേരി", "name_en": "Thalassery", "phone": "9188933824" },
+      { "name_ml": "പയ്യന്നൂർ", "name_en": "Payyannur", "phone": "9188933823" }
+    ]
+  },
+  {
+    "district_ml": "കാസർഗോഡ്",
+    "district_en": "Kasaragod",
+    "stations": [
+      { "name_ml": "കാസർഗോഡ്", "name_en": "Kasaragod", "phone": "9188933826" },
+      { "name_ml": "കാഞ്ഞങ്ങാട്", "name_en": "Kanhangad", "phone": "9188933825" }
+    ]
+  },
+		
+    {
+      "district_ml": "കേരളത്തിന് പുറത്തുള്ള പ്രധാന കേന്ദ്രങ്ങൾ",
+      "district_en": "Major Centers Outside Kerala",
+      "stations": [
+        { "name_ml": "ബാംഗ്ലൂർ സാറ്റലൈറ്റ്", "name_en": "Bangalore Satellite", "phone": "9188933820" },
+        { "name_ml": "മൈസൂർ", "name_en": "Mysuru", "phone": "9188933821" },
+        { "name_ml": "നാഗർകോവിൽ", "name_en": "Nagercoil", "phone": "9188933714" },
+        { "name_ml": "തെങ്കാശി", "name_en": "Tenkasi", "phone": "9188933731" },
+        { "name_ml": "കോയമ്പത്തൂർ", "name_en": "Coimbatore", "phone": "9188933801" },
+        { "name_ml": "മംഗലാപുരം", "name_en": "Mangaluru", "phone": "9188933827" }
+      ]
+    }
+  ]
+}
